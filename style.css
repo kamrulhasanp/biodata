@@ -1,0 +1,48 @@
+h5 {
+    font-weight: bold;
+    text-decoration: underline green;
+}
+
+.table-personal {
+    border: none;
+}
+
+.table-personal td,
+th {
+    border: none;
+}
+
+button{
+    border: none;
+    background-color: green;
+    color: white;
+    height: 32px;
+    align-items: center;
+    
+}
+
+
+/* details */
+ol .name {
+    font-weight: bold;
+}
+
+/* for small device */
+
+@media screen and (max-width: 768px) {
+    .education-table th:nth-child(4),
+    .education-table td:nth-child(4),
+    .education-table th:nth-child(6),
+    .education-table td:nth-child(6) {
+        display: none;
+    }
+
+}
+
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 5cm;
+    }
+
+}
