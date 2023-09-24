@@ -45,13 +45,9 @@ ol .name {
     .education-table td:nth-child(6) {
         display: none;
     }
+ 
 
 }
 
-@media print {
-    body {
-        font-size: 10pt;
-        margin: 5cm;
-    }
 
-}
+
